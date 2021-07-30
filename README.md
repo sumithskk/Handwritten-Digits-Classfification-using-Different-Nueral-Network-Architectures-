@@ -15,3 +15,8 @@ The MNIST database contains 60,00 training images and 10,000 testing images and 
 Given that the problem is a multi-class classification task,input shape is 28x28 and, we know that we will require an output layer with 10 nodes in order to predict the probability distribution of an image belonging to each of the 10 classes. 
 
 At each layers we have used either 'sigmoid' or 'Relu' activation functions and the loss function as 'Sparse Categorical Entropy' with optimizers 'Stochastic Gradient Descent' or 'Adam'. We used 'Keras Tuner Hyperband' for hyperparameter tuning of the model for the following parameters: Number of hidden layers, Number of Neurons in each of the Layers, Learning rate and Number of Epochs.
+
+## Credits
+  * The crash course on the MachineHack helped to get start with Tensorflow: https://machinehack.com/bootcamp/tensorflow-2-0-crash-course-79705640
+  * Keras Documentation for Hyperparameter Tuning : https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/keras_tuner.ipynb
+  * Thanks to Krish Naik, he helped a lot to learn from his youtube channel: https://www.youtube.com/user/krishnaik06
